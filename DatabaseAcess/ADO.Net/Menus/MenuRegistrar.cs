@@ -3,7 +3,7 @@ using ADO.Net.Model;
 
 namespace ADO.Net.Menus
 {
-    internal class MenuRegistrar() : Menu
+    internal class MenuRegistrar : Menu
     {
         public override void Executar(PessoaRepository repository)
         {
